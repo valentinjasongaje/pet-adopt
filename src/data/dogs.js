@@ -1,42 +1,42 @@
 export default [
   {
-    name: 'Mingming',
-    breed: 'pusakal',
+    name: 'Buddy',
+    breed: 'Askal',
     gender: 'Male',
     age: '5',
-    color: 'white orange',
-    weight: '15',
+    color: 'white',
+    weight: '25',
     location: 'threed',
     notes: 'adorable'
   },
   {
-    name: 'Mingmong',
-    breed: 'pusapin',
+    name: 'Blacky',
+    breed: 'Aspin',
     gender: 'Female',
     age: '6',
-    color: 'black orange',
-    weight: '11',
+    color: 'black',
+    weight: '54',
     location: 'tacloban',
     notes: 'super friendly'
   },
   {
-    name: 'Muning',
-    breed: 'Pusakal',
+    name: 'Browny',
+    breed: 'Askal',
     gender: 'Male',
     age: '3',
-    color: 'Brown white orange',
-    weight: '4',
+    color: 'Brown',
+    weight: '33',
     location: 'unknown',
     notes: 'super cute'
   },
   {
-    name: 'Miningming',
-    breed: 'pusakal',
+    name: 'Uno',
+    breed: 'Askal',
     gender: 'Male',
-    age: '7',
-    color: 'orange brown',
+    age: '33',
+    color: 'white brown',
     weight: '15',
     location: 'threed',
-    notes: 'The biter cat haha'
+    notes: 'The biter dog haha'
   }
 ]

@@ -1,17 +1,24 @@
 <template>
   <div>
     <b-container>
-      <b-table striped hover :items="cats" />
+      <h1>Cats for Adoption</h1>
+      <b-table striped hover :items="cats">
+        <template v-slot:cell(name)="data">
+          <!-- `data.value` is the value after formatted by the Formatter -->
+          <a :href="`/pets/${data.value}`">{{ data.value }}</a>
+        </template>
+      </b-table>
     </b-container>
   </div>
 </template>
+
 <script>
-import cats from "@/data/cats"
+import cats from '@/data/cats'
 export default {
-  data() {
+  data () {
     return {
-      cats,
-    };
-  },
-};
+      cats
+    }
+  }
+}
 </script>
