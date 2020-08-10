@@ -1,19 +1,18 @@
 <template>
   <div>
-    <b-container>
-      <h1>Dogs for Adoption</h1>
-      <b-table striped hover :items="dogs">
-        <template v-slot:cell(name)="data">
-          <!-- `data.value` is the value after formatted by the Formatter -->
-          <a :href="`/pets/dogs/${data.index}`">{{ data.value }}</a>
-        </template>
-      </b-table>
-    </b-container>
+    <PetTable
+      species="dogs"
+      :pets="dogs"
+    />
   </div>
 </template>
 <script>
 import { mapState } from 'vuex'
+import PetTable from '@/components/PetTable.vue'
 export default {
+  components: {
+    PetTable
+  },
   data () {
     return {}
   },
