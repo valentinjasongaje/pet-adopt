@@ -1,12 +1,11 @@
 <template>
   <div>
     <b-container>
-      <h1>Cats for Adoption</h1>
-      <h2>No. of Cats {{ this.getAllCats.length }}</h2>
-      <b-table striped hover :items="cats">
+      <h1>{{ species }} for Adoption</h1>
+      <b-table striped hover :items="pets">
         <template v-slot:cell(name)="data">
           <!-- `data.value` is the value after formatted by the Formatter -->
-          <a :href="`/pets/cats/${data.index}`">{{ data.value }}</a>
+          <a :href="`/pets/${species}/${data.index}`">{{ data.value }}</a>
         </template>
       </b-table>
     </b-container>
@@ -16,12 +15,9 @@
 <script>
 import { mapState, mapGetters } from 'vuex'
 export default {
-  data () {
-    return {}
-  },
-  computed: {
-    ...mapState(['cats']),
-    ...mapGetters(['getAllCats'])
+  props:{
+      species: String,
+      pets: Array
   }
 }
 </script>

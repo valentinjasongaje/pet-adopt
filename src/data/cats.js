@@ -2,6 +2,7 @@ export default [
   {
     name: 'Mingming',
     breed: 'pusakal',
+    species: 'cat',
     gender: 'Male',
     age: '5',
     color: 'white orange',
@@ -12,6 +13,7 @@ export default [
   {
     name: 'Mingmong',
     breed: 'pusapin',
+    species: 'cat',
     gender: 'Female',
     age: '6',
     color: 'black orange',
@@ -22,6 +24,7 @@ export default [
   {
     name: 'Muning',
     breed: 'Pusakal',
+    species: 'cat',
     gender: 'Male',
     age: '3',
     color: 'Brown white orange',
@@ -32,6 +35,7 @@ export default [
   {
     name: 'Miningming',
     breed: 'pusakal',
+    species: 'cat',
     gender: 'Male',
     age: '7',
     color: 'orange brown',

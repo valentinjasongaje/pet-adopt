@@ -2,6 +2,7 @@ export default [
   {
     name: 'Buddy',
     breed: 'Askal',
+    species: 'dog',
     gender: 'Male',
     age: '5',
     color: 'white',
@@ -12,6 +13,7 @@ export default [
   {
     name: 'Blacky',
     breed: 'Aspin',
+    species: 'dog',
     gender: 'Female',
     age: '6',
     color: 'black',
@@ -22,6 +24,7 @@ export default [
   {
     name: 'Browny',
     breed: 'Askal',
+    species: 'dog',
     gender: 'Male',
     age: '3',
     color: 'Brown',
@@ -32,6 +35,7 @@ export default [
   {
     name: 'Uno',
     breed: 'Askal',
+    species: 'dog',
     gender: 'Male',
     age: '33',
     color: 'white brown',
